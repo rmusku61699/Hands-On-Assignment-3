@@ -1,0 +1,8 @@
+# Files to include when packaging the project (source distribution).
+include README.md
+include requirements.txt
+include manage.py
+recursive-include chatbot_project *.py
+recursive-include chat *.py
+recursive-include screenshots *.png
+global-exclude *.pyc __pycache__ db.sqlite3

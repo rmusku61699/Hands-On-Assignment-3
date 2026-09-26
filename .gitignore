@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Local database created by migrate/train_bot (regenerate it locally)
+db.sqlite3
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

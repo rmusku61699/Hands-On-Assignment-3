@@ -1,0 +1,12 @@
+# Manifest of Python dependencies for the Django + ChatterBot terminal client.
+# Install with:  pip install -r requirements.txt
+# Tested with Python 3.11.
+
+Django==5.2.17              # Web framework / ORM that stores the bot's knowledge
+ChatterBot==1.2.15          # Machine-learning conversational dialog engine
+chatterbot-corpus==1.3.3    # Ready-made English training conversations
+PyYAML==6.0.3               # Needed to read the corpus .yml files
+spacy==3.8.16               # NLP library ChatterBot uses for tagging
+
+# spaCy English language model required by ChatterBot's default tagger
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
